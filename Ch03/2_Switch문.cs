@@ -13,7 +13,7 @@ namespace Ch03
 {
     internal class _2_Switch문
     {
-        static void Main(string[] args)
+        static void Main2(string[] args)
         {
             Console.WriteLine("숫자 입력:");
             string strNum = Console.ReadLine();
@@ -23,10 +23,11 @@ namespace Ch03
             switch (number % 2)
             {
                 case 0:
-                    Console.WriteLine($"{number}는 짝수 입니다.);
+                    Console.WriteLine($"{number}는 짝수 입니다.");
                 break;
-                    case 1:
-                    Console.WriteLine($"{number}는 홀수 입니다.);
+                case 1:
+                    Console.WriteLine($"{number}는 홀수 입니다.");
+                    break;
             }
         }
     }
