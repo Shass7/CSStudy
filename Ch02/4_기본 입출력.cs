@@ -14,7 +14,7 @@ namespace Ch02
 {
     internal class _4_기본입출력
     {
-        static void Main(string[] args)
+        static void Main4(string[] args)
         {
             // 이름 입력
             Console.Write("이름 입력 : ");
